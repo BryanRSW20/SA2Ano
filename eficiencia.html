@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/termometro.jpg" type="image/x-icon">
+    <title>SA 2º Ano SESI-SENAI</title>
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+<body>
+    <header>
+        <h2>SA Termodinâmica</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html"> Leis da termodinâmica</a></li>
+            <li><a class="active" href ="eficiencia.html"> Rendimento Energético </a></li>
+            <li><a href="maquina.html">Máquina</a> </li> 
+        </ul>
+    </nav>
+
+    <script src="./js/script.js">
+
+    </script>
+
+    <div class="container">
+        <div class="row">
+            A fórmula utilizada é: 
+            <img id="formula" src="./img/rendimento-maquina.jpg">
+        </div>
+        <div class="row">
+            <label>Digite aqui o calor fornecido: </label>
+            <input type="number" id="valorQq" placeholder="Calor fornecido"> 
+         </div>
+         
+        <div class="row">
+            <label>Digite aqui o calor rejeitado: </label> 
+            <input type="number" id="valorQf" placeholder="Calor rejeitado"> 
+        </div>
+
+        <button onclick="CalculoRendimento()"> Calcular </button>
+
+        <div class="row">
+            <label id="resultado">O resultado aparecerá aqui</label> 
+
+        </div>
+</div>
+
+    <footer>
+        <ul>
+            
+        </ul>
+    </footer>
+</body>
+</html>

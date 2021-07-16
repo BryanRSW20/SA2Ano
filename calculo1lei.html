@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/termometro.jpg" type="image/x-icon">
+    <title>SA 2º Ano SESI-SENAI</title>
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+<body>
+    <header>
+        <h2>SA Termodinâmica</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html"> Leis da termodinâmica</a></li>
+            <li><a href ="eficiencia.html"> Rendimento Energético </a></li>
+            <li><a href="maquina.html">Máquina</a> </li>
+            
+            
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <label> Digite aqui a Energia Interna <b>(∆U)</b> </label>
+            <input type="number" id="valorU" placeholder="Valor da ∆U"> 
+        
+         </div>
+         
+        <div class="row">
+            <label> Digite aqui o Trabalho <b>(t)</b></label>
+            <input type="number" id="valorT" placeholder="Valor do Trabalho"> 
+        </div>
+
+        <div class="button">
+            <button onclick="CalculoQ()">Calcular</button>
+        </div>
+
+        <div class="row">
+            <label id="Conta"><b> O Resultado (Q) aparecerá aqui!</b> </label>
+        </div>
+</div>
+    <footer>
+        <ul>
+            
+        </ul>
+    </footer>
+
+    <script src="./js/script.js">
+       
+    </script>
+</body>
+</html>
