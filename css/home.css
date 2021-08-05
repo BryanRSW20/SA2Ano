@@ -76,11 +76,44 @@ row> input {
     border-bottom: 2px solid crimson;
 }
 
+.titlemaquina {
+    text-align: center;
+}
+
 .video {
     justify-content: center;
-    margin-left: 10%;
+    margin-left: -5%;
     margin-top: 10%;
 }
+
+.vid1 {
+    color: black;
+}
+
+.vid1:hover {
+    color: white;
+}
+
+.vid2 {
+    margin-left: 0%;
+}
+
+.vid2:hover {
+    color: white;
+}
+
+.vid2button {
+    margin-left: -30%;
+}
+
+.vid:active {
+    color: black ;
+}
+
+.vid2:visited {
+    color: black ;
+}
+
 
 button {
    padding: 10px;
@@ -89,6 +122,57 @@ button {
    border: 4px solid black;
    background-color: paleturquoise;
    font-family: "LM";
+}
+
+.expand {
+    justify-content: center;
+    margin-left: 45%;
+    font-family: "LM";
+    color: black;
+}
+
+.expand:active {
+    color: blue;
+}
+
+.expand:hover {
+    color: red;
+}
+
+.expand2 {
+    justify-content: center;
+    margin-left: 45%;
+    
+    font-family: "LM";
+    color: black;
+}
+
+.expand2:active {
+    color: blue;
+}
+
+.expand2:hover {
+    color: red;
+}
+
+button:hover {
+    cursor: pointer;
+    color: paleturquoise;
+    background-color: black;
+    border: 4px solid paleturquoise;
+    
+}
+
+button:active {
+    color: paleturquoise;
+    background-color: black;
+    border: 4px solid paleturquoise;
+}
+
+.exemplos {
+    position: relative;
+    justify-content: center;
+    text-align: center;
 }
 
 footer {
